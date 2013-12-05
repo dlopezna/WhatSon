@@ -1,21 +1,53 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="always"
-        android:title="@string/action_settings"/>
-    
    <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
+        android:icon="@drawable/ic_contacts"
         android:showAsAction="always"
         android:title="@string/about"/>
    
-    <item
-        android:id="@+id/action_more"
+   <item
+        android:id="@+id/action_messages"
         android:orderInCategory="100"
+        android:icon="@drawable/ic_messages"
         android:showAsAction="always"
-        android:title="@string/plus"/>
+        android:title="Messages"/>
+   
+    <item
+        android:id="@+id/action_maps"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_maps"
+        android:showAsAction="always"
+        android:title="Maps"/>
+    <item
+        android:id="@+id/action_qr"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_qr_code"
+        android:showAsAction="always"
+        android:title="Read QR"/>
+    <item
+        android:id="@+id/action_events"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_calendar"
+        android:showAsAction="always"
+        android:title="Show Events"/>
+  <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+  <item
+        android:id="@+id/action_voice"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_voice"
+        android:showAsAction="always"
+        android:title="Voz"/>
+  <item
+        android:id="@+id/action_email"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_email"
+        android:showAsAction="always"
+        android:title="Email"/>
 
 </menu>
