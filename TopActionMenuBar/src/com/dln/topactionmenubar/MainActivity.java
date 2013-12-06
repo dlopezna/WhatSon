@@ -41,6 +41,15 @@ public class MainActivity extends Activity {
         
         
     }
+    
+    public void showMaps(){
+    	
+    	Intent intent = new Intent(this, ItemDetailActivity.class);
+        //EditText editText = (EditText) findViewById(R.id.);
+        //String message = editText.getText().toString();
+        //intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
    @Override
 public boolean onOptionsItemSelected(MenuItem item) {
 	// TODO Auto-generated method stub
@@ -52,6 +61,8 @@ public boolean onOptionsItemSelected(MenuItem item) {
     case R.id.action_messages:
     	showMessages();
         return true;
+    case R.id.action_maps:
+    	showMaps();
     default:
         return super.onOptionsItemSelected(item);
 	}

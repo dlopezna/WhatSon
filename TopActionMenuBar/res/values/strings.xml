@@ -7,5 +7,7 @@
     <string name="about">About</string>
     <string name="plus">+</string>
     <string name="title_activity_about">AboutActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 
 </resources>

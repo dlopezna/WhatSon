@@ -35,19 +35,19 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:icon="@drawable/ic_settings"
-        android:showAsAction="always"
+        android:showAsAction="collapseActionView"
         android:title="@string/action_settings"/>
   <item
         android:id="@+id/action_voice"
         android:orderInCategory="100"
         android:icon="@drawable/ic_voice"
-        android:showAsAction="always"
+        android:showAsAction="collapseActionView"
         android:title="Voz"/>
   <item
         android:id="@+id/action_email"
         android:orderInCategory="100"
         android:icon="@drawable/ic_email"
-        android:showAsAction="always"
+        android:showAsAction="never"
         android:title="Email"/>
 
 </menu>
