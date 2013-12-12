@@ -9,5 +9,9 @@
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_section1">Categorias</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 
 </resources>
